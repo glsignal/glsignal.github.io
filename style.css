@@ -1,1 +1,105 @@
 @import url('font/stylesheet.css');
+
+body, html {
+  border  : 0;
+  margin  : 0;
+  padding : 0;
+  width   : 100%;
+  height  : 100%
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  border: 0;
+  text-decoration: none;
+}
+
+h1 {
+  font-family : 'RobotoLightItalic';
+  font-size   : 48px;
+  margin      : 0;
+}
+
+p {
+  font-family : 'RobotoCondensedItalic';
+  font-size   : 24px;
+  margin      : 0;
+}
+
+#container {
+  position  : relative;
+  width     : 100%;
+  height    : 100%;
+  min-width : 1024px;
+  min-height: 600px;
+}
+
+.card {
+  display   : block;
+  width     : 100%;
+  height    : 100%;
+}
+
+.card>.center {
+  position: absolute;
+  top     : 50%;
+  left    : 50%;
+}
+
+/* ### SOCIAL & CONTACT LINKS ### */
+#contact {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+}
+
+#contact p {
+  color       : rgba(255,255,255,0.12);
+  line-height : 54px;
+}
+#contact #social,
+#contact #email {
+  display: inline-block;
+}
+
+#contact img {
+  margin        : 5px;
+  vertical-align: bottom;
+}
+
+#contact #social {
+  margin-left: 10px;
+}
+
+#contact #email {
+  float: right;
+  margin-right: 10px;
+}
+
+
+/* ### HOME CARD ### */
+.card-1 {
+  background: #363636;
+  color     : #E1D7BF;
+}
+
+.card-1>.center {
+  width       :  420px;
+  margin-left : -210px;
+  height      :  180px;
+  margin-top  : -90px;
+}
+
+.card-1>.center>h1 {
+  line-height :  124px;
+}
+
+.card-1>.center>h1>img {
+  margin        : 10px;
+  vertical-align: bottom;
+}
+
