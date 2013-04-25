@@ -72,6 +72,7 @@ p {
 }
 
 #contact #social {
+  float: left;
   margin-left: 10px;
 }
 
